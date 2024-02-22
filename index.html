@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/snake-cartoon-character-white-background_1308-73294-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+
+     <div  style="font-size: 3rem;" class="your_name">
+     </div>
+
+     <img class="snakeimg" src="./images/snake-cartoon-character-white-background_1308-73294-removebg-preview.png" alt="">
+        <div class="center" >
+            <center><h1 class="question">PLEASE ENTER YOUR NAME</h1></center> 
+             <form action="" class="form-container" data-searchForm>
+                 <input type="text" placeholder="your name please...." data-searchInput>
+                 </button>
+             </form>
+         </div>
+        <div class="gameover">
+            <img src="./images/lost.gif" alt="">
+            <h1>Game Over!!</h1>
+            <p class="curr">Score:</p>
+
+        </div>
+        <div class="score">
+            <div class="hi-score">Hi-Score:0</div>
+            <div class="curr-score" id="score">Score:0</div>
+            <div class="head"></div>
+            
+        </div>
+        <div class="game-board"></div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Yash Aggarwal . All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
